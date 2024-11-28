@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+20&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquard+24&family=Jersey+20&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jacquard+24&family=Jersey+15&family=Jersey+20&family=Pixelify+Sans:wght@400..700&family=Sarpanch:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #004aad;
+    margin: 0;
+    font-family: 'Jersey 20', sans-serif;
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 60px;
+    padding: 15px;
+    background-color: rgb(135, 206, 235);
+    border: 5px solid rgb(135, 206, 235);
+    border-radius: 15px;
+    box-shadow: 0px 10px 33px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #004aad;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Bienvenido {
+    color: rgb(230, 230, 250);
+    margin: 50px 100px;
+    text-align: justify;
+    font-size: 35px;
+    font-family: "Sarpanch", serif;
+}
+
+.Posicion-imagen {
+    display: flex;
+    margin-left: 100px;
+    color: white;
+}
+
+.Texto {
+    color: rgb(135, 206, 235);
+    text-align: justify;
+    margin-right: 50%;
+    width: 400px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 25px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagen img {
+    max-width: 250px;
+}

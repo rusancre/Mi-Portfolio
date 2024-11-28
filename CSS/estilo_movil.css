@@ -1,0 +1,46 @@
+@media (max-width: 700px) {
+
+    body { 
+        background-color: #FF7F50;
+    }
+
+    nav {
+        margin-top: 20px;
+        margin-left: 70px;
+        margin-right: 60px;
+        padding: 15px;
+        background-color: #FADADD;
+        border: 5px solid #FADADD;
+        border-radius: 15px;
+        box-shadow: 0px 10px 33px 3px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    h1 {
+        cursor: pointer;
+    }
+
+    .Bienvenido {
+        color: #BFFF00;
+        margin-left: 100px;
+        margin-right: 100px;
+        width: auto;
+        font-size: 35px;
+        font-family: "Sarpanch", serif;
+    }
+
+    .Texto {
+        color: white;
+        text-align: justify;
+        margin-right: 50%;
+        width: 400px;
+        height: 250px;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 25px;
+    }
+    
+    .imagen img {
+        content: url('https://media-public.canva.com/HsoD8/MAD8mfHsoD8/1/t.png');
+        width: 300px;
+    }
+}
