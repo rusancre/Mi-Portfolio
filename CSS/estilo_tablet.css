@@ -1,7 +1,7 @@
 @media (min-width: 700px) and (max-width: 1000px) {
 
     body { 
-        background-color: #d3d3d3; /* Color de fondo general */
+        background-color: #d3d3d3;
     }
 
     nav {
@@ -32,7 +32,7 @@
     .Texto {
         color: #333333;
         text-align: justify;
-        margin-right: 50%;
+        margin-right: 20%;
         width: 400px;
         height: 250px;
         font-family: "Chakra Petch", sans-serif;
